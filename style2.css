@@ -231,7 +231,7 @@ button:active {
 
 /* Container */
 .wrapper {
-  max-width: 1600px;
+  max-width: 1000px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.97);
   backdrop-filter: blur(15px);
@@ -491,6 +491,9 @@ button:active {
   font-size: 20px;
   line-height: 1.4;
 }
+
+.uploadyourpics2 img {  max-width:140px !important;
+  max-height:auto !important;}
 
 .photo-examples {
   display: flex;
