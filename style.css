@@ -146,8 +146,8 @@ button {
   color: white;
   font-size: 22px;
   border: none;
-  border-radius: 50px;
-  padding: 12px 30px;
+  border-radius: 10px;
+  padding: 6px 30px;
   cursor: pointer;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
@@ -204,7 +204,7 @@ button:active {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
+  border-radius: 0px;
   overflow: hidden;
 }
 
@@ -346,7 +346,7 @@ button:active {
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-radius: 50px;
+  border-radius: 20px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
   max-width: 100%;
@@ -398,8 +398,8 @@ button:active {
 }
 
 .profile-image {
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid white;
@@ -569,13 +569,7 @@ button:active {
 }
 
 .portfolio-link img {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 8px;
-}
-
-.portfolio-link:hover img {
-  transform: translateY(-5px) scale(1.05);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 /* Contact Section */
@@ -749,8 +743,8 @@ button:active {
   }
   
   .profile-image {
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
   }
   
   .profile-text {
